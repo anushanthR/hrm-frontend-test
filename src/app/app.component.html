@@ -1,0 +1,14 @@
+<!-- <app-header *ngIf="loggedIn === 'true'"></app-header>
+<app-sidebar *ngIf="loggedIn === 'true'"></app-sidebar>
+<app-dashboard *ngIf="loggedIn === 'true'"></app-dashboard>
+<app-login *ngIf="loggedIn === 'false'"></app-login> -->
+
+<app-header></app-header>
+<app-sidebar></app-sidebar>
+
+<div class="content-wrapper top-padding">
+  <div class="col-md-12">
+    <app-dashboard></app-dashboard>
+  </div>
+</div>
+<app-footer></app-footer>
